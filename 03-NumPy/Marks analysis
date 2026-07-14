@@ -1,0 +1,7 @@
+import numpy as np
+rng=np.random.default_rng()
+marks=rng.integers(35,101,size=(100,5))
+print(marks)
+print(marks.shape)
+print(marks.dtype)
+
